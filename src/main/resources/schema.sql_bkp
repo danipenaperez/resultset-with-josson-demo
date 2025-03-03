@@ -1,0 +1,51 @@
+-- public.galaxies definition
+
+-- Drop table
+
+-- DROP TABLE public.galaxies;
+
+DROP TABLE IF EXISTS public.humans;
+DROP TABLE IF EXISTS public.planets;
+DROP TABLE IF EXISTS public.galaxies;
+
+CREATE TABLE public.galaxies (
+	id uuid NOT NULL,
+	"name" varchar(255) NULL,
+	CONSTRAINT galaxies_pkey PRIMARY KEY (id)
+);
+
+
+-- public.planets definition
+
+-- Drop table
+
+-- DROP TABLE public.planets;
+
+
+
+CREATE TABLE public.planets (
+	id uuid NOT NULL,
+	"name" varchar(255) NULL,
+	galaxy_id uuid NOT NULL,
+	CONSTRAINT planets_pkey PRIMARY KEY (id),
+	CONSTRAINT fk9i8kx31rtrtqxabht2b2n21pg FOREIGN KEY (galaxy_id) REFERENCES public.galaxies(id)
+);
+
+
+-- public.humans definition
+
+-- Drop table
+
+-- DROP TABLE public.humans;
+
+
+
+CREATE TABLE public.humans (
+	id uuid NOT NULL,
+	age int4 NULL,
+	"name" varchar(255) NULL,
+	occupation varchar(255) NULL,
+	planet_id uuid NOT NULL,
+	CONSTRAINT humans_pkey PRIMARY KEY (id),
+	CONSTRAINT fk3oxsptd72fr8620emr2ecvr6c FOREIGN KEY (planet_id) REFERENCES public.planets(id)
+);

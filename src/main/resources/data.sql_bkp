@@ -1,0 +1,64 @@
+
+-- Insert statements for the galaxies table
+INSERT INTO public.galaxies (id, name) VALUES ('b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0', 'Milky Way');
+INSERT INTO public.galaxies (id, name) VALUES ('a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1', 'Andromeda');
+INSERT INTO public.galaxies (id, name) VALUES ('c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f', 'Triangulum');
+INSERT INTO public.galaxies (id, name) VALUES ('d4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a', 'Large Magellanic Cloud');
+INSERT INTO public.galaxies (id, name) VALUES ('e5f5a892-5d96-5a5a-00a8-9dfe5e1a0b7b', 'Small Magellanic Cloud');
+
+-- Insert statements for the planets table
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b', 'Tatooine', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c', 'Alderaan', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d', 'Yavin IV', 'a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e', 'Hoth', 'a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f', 'Dagobah', 'c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e01', 'Bespin', 'c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e02', 'Endor', 'd4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e03', 'Naboo', 'd4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e04', 'Coruscant', 'e5f5a892-5d96-5a5a-00a8-9dfe5e1a0b7b');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e05', 'Kamino', 'e5f5a892-5d96-5a5a-00a8-9dfe5e1a0b7b');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e06', 'Geonosis', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e07', 'Mustafar', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e09', 'Utapau', 'a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e11', 'Kashyyyk', 'a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e12', 'Polis Massa', 'c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e13', 'Mygeeto', 'c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e14', 'Felucia', 'd4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e15', 'Cato Neimoidia', 'd4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e16', 'Saleucami', 'e5f5a892-5d96-5a5a-00a8-9dfe5e1a0b7b');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e17', 'Stewjon', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e18', 'Eriadu', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e19', 'Corellia', 'a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e10', 'Rodia', 'a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e1a', 'Nal Hutta', 'c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e1b', 'Dantooine', 'c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e1c', 'Bestine IV', 'd4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e1d', 'Ord Mantell', 'd4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e1f', 'unknown planet', 'e5f5a892-5d96-5a5a-00a8-9dfe5e1a0b7b');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e21', 'Trandosha', 'e5f5a892-5d96-5a5a-00a8-9dfe5e1a0b7b');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e22', 'Socorro', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e23', 'Mon Cala', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e24', 'Chandrila', 'a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e25', 'Sullust', 'a2f2d769-2a63-4d2d-88f5-6aefb2b9d4e1');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e26', 'Toydaria', 'c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e27', 'Malastare', 'c3d3e670-3b74-4e3e-99f6-7bfc3c9e8d5f');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e28', 'Dathomir', 'd4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e29', 'Ryloth', 'd4e4f781-4c85-4f4f-99f7-8cfd4d0f9d6a');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e20', 'Aleen Minor', 'e5f5a892-5d96-5a5a-00a8-9dfe5e1a0b7b');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e2a', 'Vulpter', 'e5f5a892-5d96-5a5a-00a8-9dfe5e1a0b7b');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e2b', 'Troiken', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+INSERT INTO public.planets (id, name, galaxy_id) VALUES ('5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e2c', 'Tund', 'b1e1c858-8884-4d0e-b945-5bf7b3d8d4c0');
+
+
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a1', 50, 'Paco', 'Mechanich', '1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a2', 25, 'Luis', 'Waiter', '1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a3', 14, 'Maria', 'Driver', '1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a4', 35, 'Pedro', 'Programmer', '2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a5', 34, 'Antonio', 'Mechanich', '2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a6', 70, 'Volkanoski', 'Waiter', '3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a7', 40, 'Isidoro', 'Driver', '3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a8', 55, 'Macario', 'Mechanich', '3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c10a9', 67, 'Lourdes', 'Waiter', '3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c1010', 76, 'Maribel', 'Mechanich', '4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c1011', 45, 'Oscar', 'Waiter', '4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e');
+INSERT INTO public.humans (id, age, "name", occupation, planet_id) VALUES ('6f0bcf30-2150-47a0-a79c-6f767f6c1012', 27, 'Manolo', 'CEO', '4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e');
