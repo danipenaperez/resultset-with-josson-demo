@@ -1,12 +1,13 @@
 # Demo ResultSet + JOSSON
 
-## Problema a resolver
+## What is the problem...
 
-Muchas veces encontramos que una query customizada por varios campos a varias tablas nos devuelve una estructura de tuplas.
+Sometimes we found that executing effective one-shot queries will return a list of tuples that not match with our other API (jpa based) endpoints that returns a defined JSON object structure.
 
-imaginemos estas 3 tablas:
+Imagine this database:
 
 ![diagram](images/bbdd_diagram.png)
+
 
 If we query using one shot (so, do not iterate over jpa) using jdbcTemplate :
 
